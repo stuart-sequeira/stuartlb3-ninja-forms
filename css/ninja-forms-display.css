@@ -139,7 +139,8 @@ a.tooltip span
     font-weight: bold;
 }
 .ninja-forms-form-wrap .list-checkbox-wrap ul label,
-.ninja-forms-form-wrap .list-radio-wrap ul label {
+.ninja-forms-form-wrap .list-radio-wrap ul label,
+.ninja-forms-form-wrap .payment_options-wrap ul label {
     font-weight: normal;
 }
 
@@ -215,11 +216,13 @@ RADIO & CHECKBOX LISTS
 ----------------------------------*/
 
 .list-radio-wrap span ul li input,
+.payment_options-wrap span ul li input,
 .list-checkbox-wrap span ul li input {
     margin-right: 5px;
 }
 
 .list-radio-wrap ul,
+.payment_options-wrap ul,
 .list-checkbox-wrap ul {
     list-style: none;
     margin: 0;
@@ -227,11 +230,13 @@ RADIO & CHECKBOX LISTS
 }
 
 .list-radio-wrap ul li,
+.payment_options-wrap ul li,
 .list-checkbox-wrap ul li {
     list-style: none;
 }
 
 .list-radio-wrap ul li,
+.payment_options-wrap ul li,
 .list-checkbox-wrap ul li {
     margin: 0;
     padding: 0;
@@ -243,6 +248,12 @@ RADIO & CHECKBOX LISTS
 .list-radio-wrap.label-right label,
 .list-radio-wrap.label-right ul,
 .list-radio-wrap.label-right ul li,
+.payment_options-wrap.label-left label,
+.payment_options-wrap.label-left ul,
+.payment_options-wrap.label-left ul li,
+.payment_options-wrap.label-right label,
+.payment_options-wrap.label-right ul,
+.payment_options-wrap.label-right ul li,
 .list-checkbox-wrap.label-left label,
 .list-checkbox-wrap.label-left ul,
 .list-checkbox-wrap.label-left ul li,
@@ -251,8 +262,11 @@ RADIO & CHECKBOX LISTS
 .list-checkbox-wrap.label-right ul li {
     float: left;
 }
+
 .list-radio-wrap.label-left ul li,
 .list-radio-wrap.label-right ul li,
+.payment_options-wrap.label-left ul li,
+.payment_options-wrap.label-right ul li,
 .list-checkbox-wrap.label-left ul li,
 .list-checkbox-wrap.label-right ul li {
     padding: 0 8px;
@@ -260,6 +274,8 @@ RADIO & CHECKBOX LISTS
 
 .list-radio-wrap.label-above ul li,
 .list-radio-wrap.label-below ul li,
+.payment_options-wrap.label-above ul li,
+.payment_options-wrap.label-below ul li,
 .list-checkbox-wrap.label-above ul li,
 .list-checkbox-wrap.label-below ul li {
     padding: 0 0 0 10px;

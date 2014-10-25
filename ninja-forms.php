@@ -569,7 +569,8 @@ class Ninja_Forms {
 		require_once( NINJA_FORMS_DIR . "/includes/fields/tax.php" );
 		require_once( NINJA_FORMS_DIR . "/includes/fields/credit-card.php" );
 		require_once( NINJA_FORMS_DIR . "/includes/fields/number.php" );
-
+		require_once( NINJA_FORMS_DIR . "/includes/fields/payment-options.php" );
+		
 		require_once( NINJA_FORMS_DIR . "/includes/admin/save.php" );
 	}
 
